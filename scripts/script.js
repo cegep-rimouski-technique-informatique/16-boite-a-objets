@@ -1,4 +1,5 @@
 import { Ball } from "./modules/ball.js";
+import { Pacman } from "./modules/pac-man.js";
 
 let canvas = document.querySelector("canvas");
 let ctx = canvas.getContext("2d");
@@ -9,9 +10,11 @@ let formes = [];
 
 // Création de nos objets
 let ball1 = new Ball();
+let pacman1 = new Pacman();
 
 // Ajout des objets
 formes.push(ball1);
+formes.push(pacman1);
 
 
 // La boucle de jeu
