@@ -1,5 +1,6 @@
 import { Forme } from "./forme.js";
 
+//ma classe
 export class Ball extends Forme {
   x = 50;
   y = 50;
