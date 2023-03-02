@@ -1,4 +1,5 @@
 import { Ball } from "./modules/ball.js";
+import { Bulle } from "./modules/scriptFab.js";
 
 let canvas = document.querySelector("canvas");
 let ctx = canvas.getContext("2d");
@@ -9,9 +10,11 @@ let formes = [];
 
 // Création de nos objets
 let ball1 = new Ball();
+let bulle = new Bulle();
 
 // Ajout des objets
 formes.push(ball1);
+formes.push(bulle);
 
 
 // La boucle de jeu
