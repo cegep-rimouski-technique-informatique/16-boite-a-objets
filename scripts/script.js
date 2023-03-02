@@ -1,4 +1,6 @@
 import { Ball } from "./modules/ball.js";
+import { Triangle } from "./modules/triangle.js";
+
 
 let canvas = document.querySelector("canvas");
 let ctx = canvas.getContext("2d");
@@ -9,10 +11,12 @@ let formes = [];
 
 // Création de nos objets
 let ball1 = new Ball();
+let triangle1 = new Triangle();
+
 
 // Ajout des objets
 formes.push(ball1);
-
+formes.push(triangle1);
 
 // La boucle de jeu
 window.requestAnimationFrame(gameLoop);
