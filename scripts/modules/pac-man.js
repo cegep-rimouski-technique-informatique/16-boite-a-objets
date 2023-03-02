@@ -11,6 +11,6 @@ export class Pacman extends Forme {
     ctx.arc(this.x, this.y, 20, Math.PI / 7, -Math.PI / 7, false);
     ctx.lineTo(this.x, this.y);
     ctx.fillStyle = "yellow";
-    ctx.fill()
+    ctx.fill();
   }
 }
